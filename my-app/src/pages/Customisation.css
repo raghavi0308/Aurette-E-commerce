@@ -1,0 +1,175 @@
+body {
+  background: #fafafa;
+  font-family: 'PT Sans, sans-serif';
+}
+
+.customisation-bg {
+  min-height: 90vh;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 2rem;
+}
+
+.customisation-breadcrumb {
+  color: #000000;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.2rem;
+  margin-left: -700px;
+  width: 100%;
+  max-width: 700px;
+  margin-top: 7rem;
+}
+.breadcrumb-sep {
+  margin: 0 0.5rem;
+}
+.breadcrumb-current {
+  color: #908e8e;
+  font-weight: 500;
+}
+
+.customisation-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  color: #222;
+}
+
+.customisation-form {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.customisation-row {
+  display: flex;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.customisation-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.customisation-field label {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 0.2rem;
+}
+
+.required {
+  color: #b00;
+  margin-left: 2px;
+}
+
+.customisation-field input[type="text"],
+.customisation-field input[type="email"],
+.customisation-field input[type="tel"],
+.customisation-field input[type="file"],
+.customisation-field textarea {
+  padding: 0.7rem 1rem;
+  border: 1.5px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fafafa;
+  transition: border 0.2s;
+}
+
+.customisation-field input[type="file"] {
+  padding: 0.3rem 0.5rem;
+  background: #fff;
+}
+
+.customisation-field input:focus,
+.customisation-field textarea:focus {
+  border: 1.5px solid #735A54;
+  outline: none;
+}
+
+.customisation-field textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.customisation-submit {
+  background: #735A54;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+}
+.customisation-submit:hover {
+  background: #5a4c43;
+}
+
+.customisation-success {
+  color: #2e7d32;
+  background: #e8f5e9;
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.customisation-powered {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.customisation-error {
+  color: #d32f2f;
+  background: #ffebee;
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.customisation-submit:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 700px) {
+  .customisation-form {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+    max-width: 98vw;
+  }
+  .customisation-row {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+} 

@@ -1,0 +1,120 @@
+.product-card {
+  position: relative;
+  margin: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none !important;
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  cursor: pointer;
+  height: 720px !important;
+  border-radius: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none !important;
+}
+
+.product-image:hover .tassel-img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+} 
+
+ .tassel-img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  background: #eee;
+  transition: transform 0.3s ease;
+  box-shadow: none !important;
+}
+
+.heart-hover {
+  position: absolute !important;
+  top: 15px !important;
+  right: 18px !important;
+  font-size: 1.2rem !important;
+  color: #000000 !important;
+  background: rgb(255, 255, 255) !important;
+  border-radius: 50% !important;
+  padding: 8px !important;
+  opacity: 1 !important;
+  transition: all 0.2s ease !important;
+  z-index: 1000 !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.product-image:hover .heart-hover {
+  opacity: 1 !important;
+} 
+
+ .heart-hover:hover {
+  transform: scale(1.1);
+} 
+
+.heart-hover.fa-solid,
+.heart-hover.active {
+  color: #ff4444 !important;
+  opacity: 1 !important;
+}
+
+.heart-hover.fa-regular {
+  color: #000000 !important;
+}
+
+.product-details {
+  padding: 0.5rem 0 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-name {
+  font-size: 1.1rem !important;
+  font-weight: 500;
+  color: #5d5b5b;
+  letter-spacing: 0.7px;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin: 4px 0 0 10px !important;
+}
+
+/* Responsive styles */
+ @media (max-width: 900px) {
+  .product-card {
+    max-width: 400px;
+  }
+  
+  .product-image {
+    height: 450px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    max-width: 100%;
+  }
+  
+  .product-image {
+    height: 380px !important;
+  }
+  
+  .product-name,
+  .product-price {
+    font-size: 1rem;
+  }
+}  

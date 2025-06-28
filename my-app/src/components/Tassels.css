@@ -1,0 +1,1033 @@
+body, .tassels-container {
+  background: #ffffff;
+  overflow-x: hidden;
+  font-family: 'PT sans', sans-serif;
+}
+
+.tassels-container {
+  padding: 0 2vw 4vw 2vw;
+  max-width: 100vw;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.tassels-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tassels-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.tassels-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.tassels-filters {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background: #F1F1F1;
+  /* border-radius: 6px; */
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  padding: 0.8rem 2vw;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width:90%;
+  margin: 0 auto;
+  margin-top:8.5rem !important;
+}
+
+.tassels-filters select {
+  border: none !important;
+  background: #fafafa;
+  border-radius: 4px;
+  padding: 0.3rem 1.2rem 0.3rem 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 1rem;
+  color: #222;
+}
+
+/* .tassels-filters .avail,
+.tassels-filters .price {
+  text-align: center !important;
+} */
+
+.tassels-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2vw;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width:90%;
+  margin-bottom: 2.8rem;
+  margin-top: 1.5rem;
+  margin-left:3.2rem;
+}
+
+.tassels-view-toggle button {
+  background: #f3f3f3;
+  border: 1px solid #ffffff;
+  font-size: 1.7rem;
+  color: #bdbdbd;
+  margin-right: 0.1rem;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s, border 0.2s;
+  padding: 0.2em 0.37em;
+  /* border-radius: 5px; */
+}
+
+.tassels-view-toggle button .fa-solid {
+  font-weight: 800; /* Make icon bold */
+}
+
+.tassels-view-toggle button.active {
+  background: transparent;
+  color: #222;
+  border: 2px solid #f8f8f8; /* Bold border for active */
+}
+
+.tassels-view-toggle button.active .fa-solid {
+  font-weight: 900;
+  color: #222;
+}
+
+.tassels-view-toggle button:hover:not(.active) {
+  background: #ffffff;
+  color: #222;
+  border: 1px solid #fffdfd4a;
+}
+
+.tassels-sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.sort {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.tasssels-dropdown {
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem center;
+  background-size: 1em;
+  transition: border-color 0.2s ease;
+  margin-left: -10px;
+}
+
+.tasssels-dropdown:hover {
+  border-color: #735A54;
+}
+
+.tasssels-dropdown:focus {
+  outline: none;
+  border-color: #735A54;
+  box-shadow: 0 0 0 2px rgba(115, 90, 84, 0.1);
+}
+
+.tassels-sort-controls select {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 0 !important;
+  padding: 0.5rem 0.8rem 0.3rem 0.7rem;
+  font-size: 1rem;
+  margin-right: 1.2rem;
+  color: #222;
+}
+
+
+.tassels-sort-controls span {
+  margin-right: 0.5rem;
+}
+
+.tassels-grid {
+  display: grid;
+  gap: 2.5vw;
+  width: 94%;
+  margin-left: 3.2rem;
+}
+
+/* Horizontal 3-column view */
+.tassels-grid.horizontal {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.2vw;
+}
+
+.tassels-grid.horizontal .product-card {
+  max-width: 495px;
+  margin: 0 auto;
+
+}
+
+.tassels-grid.horizontal .product-image {
+  width: 100%;
+}
+
+.tassels-grid.horizontal .tassel-img {
+  height: 680px !important;
+}
+
+.tassels-grid.horizontal .product-name {
+  margin-left: 170px;
+  font-size: 1.1rem;
+  align-items: center;
+  margin-top: -95px !important;
+}
+
+.tassels-grid.horizontal .product-price {
+  transform: translateX(185px) !important;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+.tassels-grid.horizontal .choose-options-btn {
+  margin-left: -21px;
+  /* margin-right: 10px; */
+  margin-top: 10px;
+  width: calc(100% -15px) !important;
+}
+
+/* 2-column view */
+.tassels-grid.vertical {
+  grid-template-columns: repeat(2, 1fr);
+  gap:0vw;
+  position: relative;
+}
+
+.tassels-grid.vertical .product-card {
+  max-width: 750px;
+  margin: 0 auto;
+  border-radius: 0;
+  height: 1500px !important;
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-bottom: 2px solid #000000; /* Make the line darker and thicker */
+  padding-bottom: 40px; /* Add padding to create space */
+}
+
+/* Remove the last product's border */
+.tassels-grid.vertical .product-card:last-child {
+  border-bottom: none;
+}
+
+/* Add margin between columns */
+.tassels-grid.vertical .product-card:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.tassels-grid.vertical .product-card:nth-child(even) {
+  margin-left: 40px;
+}
+
+.tassels-grid.vertical .product-image {
+  width: 100%;
+  height: 1300px !important;
+  max-height: none;
+  max-width: 850px !important;
+}
+
+.tassels-grid.vertical .tassel-img {
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+}
+
+.tassels-grid.vertical .product-details {
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+
+.tassels-grid.vertical .product-name {
+  margin-left: 290px !important;
+  font-size: 1.1rem;
+}
+
+.tassels-grid.vertical .product-price {
+  margin-left: 360px !important;
+  font-size: 1.1rem;
+  color:#000000;
+}
+
+.tassels-grid.vertical .choose-options-btn {
+  margin-left: -70px;
+  width: calc(100% - -95px) !important;
+  margin-bottom: 0 !important;
+}
+
+/* List view (1 column) */
+.tassels-grid.list {
+  grid-template-columns: 1fr;
+  gap: 2vw;
+}
+
+
+
+.tassels-grid.list .product-card {
+  max-width: 1550px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -10px;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0.2rem 0 0.4rem 0;
+  border-radius: 0;
+  text-decoration: none !important;
+}
+
+/* .tassels-grid.list .product-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
+
+.tassels-grid.list .product-image {
+  width: 470px !important;
+  min-width: 320px;
+  max-width: 800px;
+  height: 500px;
+  flex-shrink: 0;
+  text-decoration: none !important;
+}
+
+.tassels-grid.list .tassel-img {
+  width: 100%;
+  height: 550px;
+  transform: scale(0.99);
+  object-fit: cover;
+  background: #eee;
+  text-decoration: none !important;
+}
+
+.tassels-grid.list .product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 2rem;
+  text-decoration: none !important;
+  margin-top: -45px;
+}
+
+.tassels-grid.list .product-name {
+  margin: -10px 0 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #7c7a7a;
+  letter-spacing: 0.7px;
+  text-decoration: none !important;
+}
+
+.tassels-grid.list .product-description {
+  margin: 0;
+  font-size: 1.09rem;
+  color: #000000;
+  line-height: 2;
+  font-weight: 500;
+  text-decoration: none !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 900px;
+  font-family: 'PT sans', sans-serif;
+  letter-spacing: 0.5px;
+  text-align: left;
+  padding: 0;
+}
+
+.tassels-grid.list .description-line {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.tassels-grid.list .product-price {
+  margin: 0 0 1.2rem 0;
+  font-size: 1.1rem;
+  margin-left: 37px !important;
+  font-weight: 600;
+  color: #363535;
+  text-decoration: none !important;
+}
+
+/* Remove hover effects for list view */
+.tassels-grid.list .product-card:hover,
+.tassels-grid.list .product-image:hover,
+.tassels-grid.list .tassel-img:hover,
+.tassels-grid.list .product-details:hover,
+.tassels-grid.list .product-name:hover,
+.tassels-grid.list .product-description:hover,
+.tassels-grid.list .product-price:hover {
+  transform: none !important;
+  transition: none !important;
+  scale: 1 !important;
+}
+
+/* Remove focus effects for list view */
+.tassels-grid.list .product-card:focus,
+.tassels-grid.list .product-image:focus,
+.tassels-grid.list .tassel-img:focus,
+.tassels-grid.list .product-details:focus,
+.tassels-grid.list .product-name:focus,
+.tassels-grid.list .product-description:focus,
+.tassels-grid.list .product-price:focus {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+/* Remove active effects for list view */
+.tassels-grid.list .product-card:active,
+.tassels-grid.list .product-image:active,
+.tassels-grid.list .tassel-img:active,
+.tassels-grid.list .product-details:active,
+.tassels-grid.list .product-name:active,
+.tassels-grid.list .product-description:active,
+.tassels-grid.list .product-price:active {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.tassel-item {
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+.product-card {
+  position: relative;
+  background: #fff;
+  border-radius: 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.product-card .product-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card .heart-hover {
+  position: absolute !important;
+  top: 28px !important;
+  right: 15px !important;
+  font-size: 1.2rem !important;
+  color: #000000 !important;
+  background: rgb(255, 255, 255) !important;
+  border-radius: 50% !important;
+  padding: 7px !important;
+  opacity: 0 !important;
+  transition: all 0.2s ease !important;
+  z-index: 1000 !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  display: block !important;
+  visibility: visible !important;
+  transform: none !important;
+}
+
+.product-card:hover .heart-hover {
+  opacity: 1 !important;
+}
+
+.product-card .heart-hover.active {
+  color: #513a3a !important;
+  opacity: 1 !important;
+}
+
+.product-card .heart-hover:hover {
+  color: #513a3a !important;
+  transform: scale(1.1) !important;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tassel-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+}
+
+.product-details {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #5d5b5b;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 155px;
+  margin-right: 0;
+  letter-spacing: 0.7px;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left: 195px;
+  margin-right: 0;
+}
+
+.choose-options-btn {
+  background: #735A54;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 1.8rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.choose-options-btn:hover {
+  background: #5a4c43;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .tassels-grid.horizontal .product-card {
+    max-width: 400px;
+  }
+  
+  .tassels-grid.horizontal .tassel-img {
+    height: 380px;
+  }
+  
+  .tassels-grid.vertical .product-card {
+    max-width: 500px;
+  }
+  
+  .tassels-grid.vertical .tassel-img {
+    height: 420px;
+  }
+  
+  .tassels-grid.vertical .product-name,
+  .tassels-grid.vertical .product-price {
+    margin-left: 100px;
+    font-size: 1.1rem;
+  }
+  
+  .tassels-grid.vertical .choose-options-btn {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: calc(100% - 200px);
+  }
+
+  .tassels-grid.list .product-card {
+    flex-direction: column;
+    align-items: center;
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem;
+  }
+
+  .tassels-grid.list .product-image {
+    width: 100%;
+    max-width: 100vw;
+    min-width: 0;
+  }
+
+  .tassels-grid.list .tassel-img {
+    height: 320px;
+  }
+
+  .tassels-grid.list .product-details {
+    width: 100%;
+    padding: 0;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .tassels-grid.horizontal .product-card,
+  .tassels-grid.vertical .product-card,
+  .tassels-grid.list .product-card {
+    max-width: 100%;
+  }
+  
+  .tassels-grid.horizontal .tassel-img,
+  .tassels-grid.vertical .tassel-img,
+  .tassels-grid.list .tassel-img {
+    height: 320px;
+  }
+  
+  .tassels-grid.horizontal .product-name,
+  .tassels-grid.horizontal .product-price,
+  .tassels-grid.vertical .product-name,
+  .tassels-grid.vertical .product-price,
+  .tassels-grid.list .product-name,
+  .tassels-grid.list .product-price {
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+  
+  .tassels-grid.horizontal .choose-options-btn,
+  .tassels-grid.vertical .choose-options-btn,
+  .tassels-grid.list .choose-options-btn {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+.tassels-navbar {
+  width: 100vw;
+  margin-left: -35px;
+  margin-right: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background: #1E1E1E;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.04); */
+  margin-bottom: 2.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.tassels-navbar-links ul {
+  display:flex;
+  gap: 2.4rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+  transform: translateX(60px);
+}
+.tassels-navbar-links ul li a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.2s, border-bottom 0.2s;
+  padding-bottom: 2px;
+}
+.tassels-navbar-links ul li a:hover {
+  /* color: #FFD43B; */
+  border-bottom: 2px solid #ffffff;
+}
+.tassels-navbar-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+  flex: 1;
+  text-align: center;
+  transform: translateX(-180px);
+}
+.tassels-navbar-icons {
+  display: flex;
+  gap: 33px;
+  color: #fff;
+  font-size: 1.3rem;
+  align-items: center;
+  transform: translateX(-90px);
+}
+.tassels-navbar-icons i {
+  position: relative;
+  cursor: pointer;
+}
+.tassels-navbar-icons .badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #030303;
+  color: white;
+  border-radius: 50%;
+  padding: 1px 1px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  min-width: 19px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .tassels-navbar-links ul {
+    gap: 1.2rem;
+  }
+  .tassels-navbar-logo {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .tassels-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+    padding: 1rem 1vw;
+  }
+  .tassels-navbar-logo {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .tassels-navbar-icons {
+    gap: 18px;
+    font-size: 1.1rem;
+  }
+}
+
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-btn {
+  position: relative;
+  z-index: 1;
+  background: none;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem 1.2rem;
+  width: 100%;
+  text-align: left;
+  border-radius: 6px;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.filter-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 44px; /* default background height */
+  background: transparent;
+  z-index: -1;
+  transition: background 0.2s, height 0.2s, border 0.2s;
+  transform: translateY(-50%);
+  border: 1px solid transparent;
+}
+
+.filter-btn:hover::before,
+.filter-btn:focus::before {
+  background: #fff;
+  height: 60px; /* taller background on hover */
+  border: 1px solid #e3e2e2;
+}
+
+.dropdown-content {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-20px);
+  transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+  position: absolute;
+  top: 130%;
+  left: 0;
+  background: #fff;
+  min-width: 250px;
+  width: 100%;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
+  z-index: 100;
+  padding: 1rem;
+  border: 1px solid #e3e2e2;
+}
+
+.dropdown-content label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.price-range {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: stretch;
+  width: 100%;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.currency-inside {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #444;
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+.price-inputs input[type="number"] {
+  width: 60px;
+  padding: 0.3rem 0.5rem 0.3rem 2rem; /* left padding for icon */
+  border: 1px solid #ccc;
+  /* border-radius: 4px; */
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: right;
+  appearance: textfield; /* Remove default spinner for Chrome */
+}
+
+.price-inputs input[type="number"]::-webkit-inner-spin-button,
+.price-inputs input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+  pointer-events: auto;
+  position: absolute;
+  right: 4px;
+}
+
+.price-inputs input[type="number"]::-webkit-inner-spin-button,
+.price-inputs input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: inner-spin-button !important;
+  appearance: auto !important;
+}
+
+.price-inputs input[type="number"]::-ms-input-placeholder,
+.price-inputs input[type="number"]::placeholder {
+  color: #aaa;
+  font-weight: 400;
+}
+
+.price-inputs .separator {
+  font-size: 1.2rem;
+  color: #888;
+  margin: 0 0.3rem;
+}
+
+.apply-btn {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  background:#735A54;
+  color: #fff;
+  border: none;
+  /* border-radius: 4px; */
+  padding: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+}
+
+.apply-btn:hover {
+  background: #5a4c43;
+}
+
+.price-slider {
+  width: 100%;
+  accent-color: #8d8c8c;
+  margin-top: 0;
+}
+
+.filter-btn i {
+  margin-left: 0.5em;
+  font-size: 0.9em;
+} 
+
+
+/* Make the checkbox itself larger */
+.dropdown-content label input[type="checkbox"] {
+  transform: scale(1.1);      /* Increase size */
+  accent-color: #8d8c8c;      /* Grey color when checked (modern browsers) */
+  margin-right: 8px;
+  transform: translateY(-1px);         /* Space between checkbox and label text */
+  vertical-align: middle;
+}
+
+/* When parent is hovered, show and slide down */
+.filter-dropdown:hover .dropdown-content,
+.filter-dropdown:focus-within .dropdown-content {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.chevron {
+  position: absolute;
+  right: 8px;
+  color: #888;
+  cursor: pointer;
+  font-size: 0.9em;
+  user-select: none;
+  transition: color 0.2s;
+}
+
+.chevron-up {
+  top: 4px;
+}
+
+.chevron-down {
+  bottom: 4px;
+}
+
+.input-wrapper input[type="number"] {
+  padding-right: 2em; /* Space for chevrons */
+}
+
+/* Shared dropdown style */
+.tassels-sort-controls .tassels-dropdown {
+  appearance: none;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 0.45rem 1.5rem 0.45rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  position: relative;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.tassels-sort-controls .tassels-dropdown:focus {
+  border: 1px solid #999;
+  outline: none;
+}
+
+/* Style options inside dropdown with higher specificity */
+.tassels-sort-controls .tassels-dropdown option {
+  background: #fff !important;
+  color: #222 !important;
+  padding: 12px 15px !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.tassels-sort-controls .tassels-dropdown option:hover {
+  background-color: #f5f5f5 !important;
+}
+
+.tassels-sort-controls .tassels-dropdown option:checked {
+  background-color: #f0f0f0 !important;
+  font-weight: 600 !important;
+}
+
+.tassels-sort-controls .tassels-dropdown option:focus {
+  outline: none !important;
+  background-color: #f5f5f5 !important;
+}
+
+.toggle-icon {
+  font-weight: 600;
+  color: #222;
+  border-radius: 5px;
+}
+
+.tassels-divider {
+  width: 94%;
+  height: 1.5px;
+  background: #e0e0e0;
+  margin: 2.5rem 0 2.5rem 3rem;
+  border: none;
+}
+
+.tassels-grid.list .choose-options-btn {
+  width: fit-content;
+  min-width: 180px;
+  padding: 0.9rem 2rem;
+  font-size: 1.08rem;
+  margin: 0;
+  background: #735A54;
+  color: #fff;
+  border: none;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.product-image {
+  position: relative;
+}
+
+.heart-hover {
+  /* display: none !important; */
+}
+
+.product-image:hover .heart-hover {
+  /* display: none !important; */
+}
+
+.heart-hover:hover {
+  /* display: none !important; */
+}
+
+.heart-hover.fa-solid {
+  /* display: none !important; */
+}
+
+.dropdown-content label input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.dropdown-content label input[type="checkbox"]:disabled + span {
+  color: #999;
+}

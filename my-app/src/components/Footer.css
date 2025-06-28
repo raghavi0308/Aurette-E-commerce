@@ -1,0 +1,19 @@
+.list {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+    color: #A2A2A2;
+    font-size: 18px;
+    text-align: left;
+    cursor: pointer;
+  }
+
+.list :hover{
+  color:#fff;
+  text-decoration: underline;
+}
+
+.list li :hover{
+    color: #fff;
+    text-decoration: underline;
+}

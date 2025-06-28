@@ -1,0 +1,560 @@
+[
+  {
+    "id": "1",
+    "name": "Saffron Nomad",
+    "slug": "saffron-nomad",
+    "category": "tassels",
+    "price": "Rs.1200",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096375/products/iu6bpvkpfncilm8nsuyw.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096375/products/iu6bpvkpfncilm8nsuyw.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096352/products/kwdec8dpy549mwpopzwp.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Orange",
+    "model": "Wearing Size M",
+    "ratings": 4,
+    "description": "Bold like the sun, free like the wind. Saffron Nomad captures the spirit of wanderlust in a vibrant orange hue, grounded by an intricate patch inspired by tribal tapestries. Finished with hand-draped fringe, this tee turns everyday dressing into a story worth wearing. It's comfort you can move in, and art you can feel.\\n\\nWear it when the world is your runway — or your next adventure.\\n\\nFabric: 100% cotton.\\nFit: Over Sized.\\nPatch: Ethnic embroidered textile with beaded fringe.\\nGSM: 180",
+    "careInstructions": "CARE STUFF\\n\\n i) Wash cold, do not bleach, tumble dry low.\\n ii) Do not iron on print.\\n iii) Do not dry clean.\\n iv) Do not wring.\\n v) Iron on reverse side.\\n vi) Do not soak in water.\\n \\nHandle with love - just like it was made.",
+    "returnPolicy": " Returns Policy \\n\\n We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months. \\n \\n Cancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "2",
+    "name": "Ivory Whisper",
+    "slug": "ivory-whisper-tee",
+    "category": "tassels",
+    "price": "Rs.990",
+    "image": "/images/products/t-6.jpg",
+    "images": [
+      "/images/products/t-6.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096403/products/m2tr3oschxbaxayqyep5.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "White",
+    "model": "Wearing Size M",
+    "ratings": 4.5,
+    "description": "Whisper-soft and minimal, the Ivory Whisper tee is crafted for those who embrace subtlety with grace. Featuring delicate tonal embroidery near the hem, it adds just the right touch of elegance to a clean white canvas. The breathable cotton fabric makes it perfect for warm days, while its oversized fit ensures unrestricted movement. A timeless piece you can pair with anything, this tee speaks volumes through its quiet details. From brunch to bookstores, this versatile tee follows wherever your day leads. Comfort meets understated charm in every stitch of the Ivory Whisper.",
+    "GSM": "180",
+    "careInstructions": "i) Wash cold, do not bleach, tumble dry low.\n ii) Do not iron on print.\n iii) Do not dry clean.\n iv) Do not wring.\n v) Iron on reverse side.\n vi) Do not soak in water.\n\nHandle with love - just like it was made.",
+    "styleTips": "Pair it with high-waisted jeans and minimal sneakers for a clean, casual look. Add layered jewelry for a refined touch.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "3",
+    "name": "White Haze Bloom",
+    "slug": "white-haze-bloom",
+    "category": "tassels",
+    "price": "Rs.1050",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096388/products/tpsehquecc4lrxv0ichc.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096388/products/tpsehquecc4lrxv0ichc.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096379/products/vnvq31ztq0onkc1osv0l.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "White",
+    "model": "Wearing Size M",
+    "ratings": 3.5,
+    "description": "Float through your day with the White Haze Bloom tee — a dreamy staple inspired by skies and serenity. In a crisp white tone, this oversized silhouette wraps you in comfort and lightness. Hand-sewn pearl bead accents on the shoulder offer a hint of elegance without overpowering the minimal look. Its ultra-soft cotton construction is breathable and smooth, ideal for laid-back moods and loungey afternoons. Pair it with your favorite denim or tuck it into a skirt for an elevated casual look. White Haze Bloom is more than a tee — it's a wearable breath of fresh air.",
+    "GSM": "180",
+    "careInstructions": "i) Gentle wash in cold water.\n ii) Do not bleach or tumble dry.\n iii) Iron inside-out at low temperature.\n iv) Avoid soaking and dry cleaning.",
+    "styleTips": "Style with light-washed denim shorts and a pair of espadrilles for a chic summer day look.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "4",
+    "name": "Blush Haze Bloom",
+    "slug": "blush-haze-bloom",
+    "category": "tassels",
+    "price": "Rs.1150",
+    "image": "/images/products/c7.jpg",
+    "images": [
+      "/images/products/c7.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Blush Pink",
+    "model": "Wearing Size M",
+    "ratings": 3,
+    "description": "Dreamy and laid-back, the Blush Haze Bloom tee is perfect for days when you want to feel effortlessly stylish. Rendered in a soft pink hue, it's adorned with a hand-painted pastel graphic that captures the essence of artistic freedom. The oversized cut drapes gracefully, making it as comfortable as it is chic. Whether you're lounging at home, heading out with friends, or strolling through your favorite cafe, this tee adds a splash of personality to any setting. Crafted from 100% cotton, its soft touch and relaxed fit make it a must-have in every modern wardrobe. Let your style drift with charm and confidence.",
+    "GSM": "180",
+    "careInstructions": "i) Wash inside out in cold water.\n ii) Do not bleach or wring.\n iii) Line dry in shade.\n iv) Iron on reverse side only.",
+    "styleTips": "Tuck into a midi skirt with sneakers or pair with high-waist shorts and sandals for a dreamy vibe.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "5",
+    "name": "Charcoal Muse",
+    "slug": "charcoal-muse",
+    "category": "tassels",
+    "price": "Rs.1090",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096401/products/bx7nybkoiucnqkhtcye2.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096401/products/bx7nybkoiucnqkhtcye2.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096399/products/cuwit0hhy3gni9kx5uom.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Charcoal Grey",
+    "model": "Wearing Size L",
+    "ratings": 3.5,
+    "description": "Grounded and cool, the Charcoal Muse delivers a minimalist aesthetic with maximum impact. Its stormy grey tone is complemented by a sharp geometric print at the chest, adding a subtle artistic edge. Made from 100% cotton with a 180 GSM weight, it feels as good as it looks — soft, breathable, and perfect for all-day wear. The oversized fit allows for easy layering or solo styling, depending on your mood. Whether paired with joggers for a relaxed day or jeans for an urban outing, Charcoal Muse is a quiet statement of style and comfort. Simplicity, elevated to street-ready perfection.",
+    "GSM": "180",
+    "careInstructions": "i) Machine wash in cold water.\n ii) Avoid tumble drying.\n iii) Iron on reverse side.\n iv) Do not bleach or dry clean.",
+    "styleTips": "Layer with a denim jacket and joggers for a streetwear look or pair with ripped jeans and boots for a bold vibe.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "6",
+    "name": "Slate Pocket Drift",
+    "slug": "slate-pocket-drift",
+    "category": "shop",
+    "price": "Rs.1450",
+    "image": "/images/products/o-1.jpg",
+    "images": [
+      "/images/products/o-1.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096221/products/bt0at67fplvd2qgi7dbb.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Grey",
+    "model": "Wearing Size M",
+    "ratings": 4,
+    "description": "Designed for those who live in comfort and confidence, the Slate Pocket Drift tee brings utility into the realm of style. Featuring large minime pockets on both sides, it combines everyday practicality with a streetwear edge. Its stormy grey hue offers a grounded, neutral tone perfect for mix-and-match wardrobes. Crafted in 100% cotton with a 180 GSM fabric weight, this tee offers breathability and structure. The boxy fit allows easy layering, while the pocket details add character and depth to the design.",
+    "GSM": "180",
+    "careInstructions": "i) Wash cold, do not bleach, tumble dry low.\n ii) Do not iron on print.\n iii) Do not dry clean.\n iv) Do not wring.\n v) Iron on reverse side.\n vi) Do not soak in water.\n\nHandle with love - just like it was made.",
+    "styleTips": "Pair with wide-leg trousers and boots for a utility-chic outfit, or with shorts and sneakers for a laid-back look.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "7",
+    "name": "Dusty Drama",
+    "slug": "dusty-drama",
+    "category": "tassels",
+    "price": "Rs.1190",
+    "image": "/images/products/c2.jpg",
+    "images": [
+      "/images/products/c2.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096046/products/x3fkozhdnafqlcakfcag.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Lightest White and Brown",
+    "model": "Wearing Size M",
+    "ratings": 4,
+    "description": "Subtle yet captivating, the Dusty Drama tee blends lightest white with rich earthy browns in an abstract, hand-finished tie-dye pattern. Made from premium 100% cotton, it features an oversized silhouette and raw-edge sleeve hems for a relaxed and effortless vibe. The neutral palette makes it easy to style while still turning heads. Whether worn at a beach hangout or a city stroll, this tee brings a touch of quiet confidence to your wardrobe. Let the drama stay in the dye — your style stays cool.",
+    "GSM": "180",
+    "careInstructions": "i) Wash separately in cold water.\n ii) Do not bleach or wring.\n iii) Line dry inside out.\n iv) Iron on reverse side if needed.\n v) Avoid direct sunlight drying to preserve color.",
+    "styleTips": "Pair with linen trousers and sandals for a breezy vacation look, or tuck into flared jeans for a vintage touch.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "8",
+    "name": "Purple Glint",
+    "slug": "purple-glint",
+    "category": "tassels",
+    "price": "Rs.1250",
+    "image": "/images/products/c3.jpg",
+    "images": [
+      "/images/products/c3.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096067/products/p0pf4w1b0fglkilxknju.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Purple",
+    "model": "Wearing Size M",
+    "ratings": 4.5,
+    "description": "A soft lavender shade meets a relaxed silhouette in the Purple Glint tee, designed to give your wardrobe a gentle pop of pastel. Featuring micro-sequin embroidery near the collarbone that catches the light just right, this tee delivers understated glam. Its cotton fabric is lightweight and breathable, perfect for sunny strolls or cozy days indoors. The subtle shimmer combined with the delicate color makes it a go-to for those who love minimal yet playful pieces.",
+    "GSM": "180",
+    "careInstructions": "i) Gentle hand wash recommended.\n ii) Avoid soaking or scrubbing sequins.\n iii) Iron inside out at low heat.\n iv) Do not tumble dry or bleach.",
+    "styleTips": "Style with a white denim skirt and a mini lavender crossbody for a monochrome moment or go neutral with beige pants and chunky sneakers.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "9",
+    "name": "Mulberry Folk",
+    "slug": "mulberry-folk",
+    "category": "shop",
+    "price": "Rs.1290",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096109/products/v3u1vtw4ykwkxaqe3lwe.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096109/products/v3u1vtw4ykwkxaqe3lwe.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096097/products/nk2fg17enishz72sr2i1.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Red and Black Checked",
+    "model": "Wearing Size L",
+    "ratings": 4.5,
+    "description": "Inspired by rustic patterns and indie flair, Mulberry Folk delivers a bold twist to your wardrobe. Its red and black checkered print is an instant eye-catcher, while the oversized fit and dropped shoulders add a street-style edge. Finished with subtle stitching along the hem and cuffs, this tee is crafted from durable yet breathable cotton. Whether layered under a denim jacket or worn solo with boots, Mulberry Folk speaks volumes in its retro-meets-modern mood.",
+    "GSM": "180",
+    "careInstructions": "i) Machine wash inside out with like colors.\n ii) Do not bleach.\n iii) Tumble dry on low or hang to dry.\n iv) Iron on medium heat inside out.",
+    "styleTips": "Layer with a leather jacket and combat boots for a grunge feel, or pair with biker shorts for a bold contrast.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "10",
+    "name": "Cloud Drape Tee",
+    "slug": "cloud-drape-tee",
+    "category": "tassels",
+    "price": "Rs.1150",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096459/products/vxo156ifdxehaj61rov8.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096459/products/vxo156ifdxehaj61rov8.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096458/products/zzwqxtyxa2h6jfojxpyh.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Soft White",
+    "model": "Wearing Size M",
+    "ratings": 3.2,
+    "description": "The Cloud Drape Tee blends elegance with comfort, crafted in lightweight cotton for an airy, feather-soft feel. Designed with drop shoulders and a loose silhouette, this summer essential moves with you. The minimal aesthetic makes it perfect for layering or standalone wear.",
+    "GSM": "160",
+    "careInstructions": "i) Machine wash cold with similar colors.\n ii) Use mild detergent.\n iii) Do not bleach.\n iv) Iron on low heat if needed.",
+    "styleTips": "Tuck into mom jeans for a casual day out, or knot the hem and pair with a flowy skirt for a breezy brunch look.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "11",
+    "name": "Midnight Barrel Denim",
+    "slug": "midnight-barrel-denim",
+    "category": "tassels",
+    "price": "Rs.1790",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096318/products/atmscxqjce1boju14leu.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096318/products/atmscxqjce1boju14leu.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096317/products/huuudi7hogqwhxyvldjo.jpg"
+    ],
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "color": "Midnight Blue",
+    "model": "Wearing Size 28",
+    "ratings": 3,
+    "description": "Barrel-shaped and bold, the Midnight Barrel Denim is a nod to vintage structure and modern flair. High-rise with a roomy leg, this denim hugs the waist while providing an effortless fit through the hips. Pair with cropped tops or oversized tees for that perfect off-duty model look.",
+    "GSM": "300 (Denim)",
+    "careInstructions": "i) Wash inside out in cold water.\n ii) Do not bleach.\n iii) Air dry flat.\n iv) Iron on medium heat if required.",
+    "styleTips": "Style with a tucked-in graphic tee and chunky sneakers, or pair with a fitted tank and boots for elevated streetwear.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "12",
+    "name": "Summer Bloom Tee",
+    "slug": "summer-bloom-tee",
+    "category": "tassels",
+    "price": "Rs.1250",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096320/products/jw7vux2pjtdcofr4k7fg.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096320/products/jw7vux2pjtdcofr4k7fg.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096321/products/mtervdumei8lch5bjcgz.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Peach Floral",
+    "model": "Wearing Size L",
+    "ratings": 4.8,
+    "description": "Summer 2025 introduces feminine designs through the Summer Bloom Tee. A delicate peach-toned base with pastel floral accents defines this piece. With a flattering fit and soft-touch fabric, it's made for sunny days and spontaneous adventures.",
+    "GSM": "180",
+    "careInstructions": "i) Gentle wash in cold water.\n ii) Avoid wringing.\n iii) Dry flat in shade.\n iv) Iron on reverse side.",
+    "styleTips": "Pair with flared trousers for a vintage-inspired look or layer with a denim jacket and tote bag for campus cool.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "13",
+    "name": "Olive Grove Tassel",
+    "slug": "olive-grove-tassel",
+    "category": "tassels",
+    "price": "Rs.1350",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096186/products/ozmrxkkkpqejks1dmvgi.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096186/products/ozmrxkkkpqejks1dmvgi.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096184/products/tmdha2ilzbtqrcrrs6mg.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Olive Green",
+    "model": "Wearing Size M",
+    "ratings": 5,
+    "description": "Bring subtle earthiness to your look with the Olive Grove Tassel. This piece blends rich olive tones with delicate tassel detailing, perfect for adding texture to your ensemble.",
+    "GSM": "190",
+    "careInstructions": "i) Hand wash separately in cold water.\n ii) Do not bleach.\n iii) Dry flat away from sunlight.\n iv) Iron on low heat.",
+    "styleTips": "Pair with beige or cream outfits for a soft contrast or wear it with denim for casual flair.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "14",
+    "name": "Deep Forest",
+    "slug": "deep-forest",
+    "category": "tassels",
+    "price": "Rs.1450",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096305/products/p2fy9peuwukgqu8lqp2d.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096305/products/p2fy9peuwukgqu8lqp2d.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096303/products/vieloeclgtjgvvqzf0qs.jpg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "Dark Green",
+    "model": "Wearing Size L",
+    "ratings": 4.8,
+    "description": "The Deep Forest Tassel captures the essence of dense woods with its rich dark green shade and exquisite tassel accents. Ideal for statement accessories in any wardrobe.",
+    "GSM": "185",
+    "careInstructions": "i) Machine wash on gentle cycle in cold water.\n ii) Avoid tumble drying.\n iii) Hang dry in shade.\n iv) Use a cool iron if needed.",
+    "styleTips": "Match with earth-tone dresses or dark denim to enhance the natural vibe.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "15",
+    "name": "Moss Mist",
+    "slug": "moss-mist",
+    "category": "tassels",
+    "price": "Rs.1299",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096195/products/wd3hhnumexog6odkaqho.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096195/products/wd3hhnumexog6odkaqho.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096194/products/og5rwqdahydafqjlmdwf.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "color": "Light Dark Green",
+    "model": "Wearing Size S",
+    "ratings": 4,
+    "description": "Light but lush, the Moss Mist Tassel offers a subtle dark green hue with soft tassels that evoke the calmness of a forest morning.",
+    "GSM": "175",
+    "careInstructions": "i) Gentle hand wash in cold water.\n ii) Lay flat to dry.\n iii) Avoid direct sunlight.\n iv) Iron on reverse at low temperature.",
+    "styleTips": "Complement with pastel outfits or simple white shirts for an understated elegance.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Customers must bear return shipping costs. Items must be unused, unwashed, with original tags and packaging intact. Refunds are issued as credit notes valid for 6 months.\n\nCancellations are allowed only on COD orders before dispatch. Prepaid orders are non-refundable. A 30-day review window is available for quality issues like color bleeding or defects. To initiate a return or exchange, contact support via email or phone."
+  },
+  {
+    "id": "16",
+    "name": "Blush Bloom Twirl Frock",
+    "slug": "blush-bloom-twirl-frock",
+    "category": "minime",
+    "price": "Rs.1490",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096028/products/wtnczzfltw8btxfdeipv.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096028/products/wtnczzfltw8btxfdeipv.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096024/products/ioildry8juluzidfhrws.jpg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Blush Pink",
+    "model": "Wearing Size XS",
+    "ratings": 5,
+    "description": "A pastel dream for your little fashionista, this blush pink frock is all about soft ruffles, flutter sleeves, and carefree twirls. Perfect for birthdays or weekend brunches, it blends charm with comfort effortlessly.",
+    "GSM": "160",
+    "careInstructions": "i) Hand wash separately.\n ii) Do not bleach.\n iii) Dry in shade.\n iv) Iron on low heat.",
+    "styleTips": "Style with white ballerina shoes and a cute hairband for a picture-perfect look.",
+    "returnPolicy": "We offer returns and exchanges within 7 days of delivery. Items must be unused, unwashed, with tags intact. Return shipping is to be borne by the customer. Refunds are via credit note valid for 6 months. Cancellations allowed only for COD before dispatch."
+  },
+  {
+    "id": "17",
+    "name": "Sunny Daze Button-Down Frock",
+    "slug": "sunny-daze-button-down-frock",
+    "category": "minime",
+    "price": "Rs.1350",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096347/products/sxl1eti3oesedmp2m7tq.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096347/products/sxl1eti3oesedmp2m7tq.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096332/products/q2ua9u8wxqppxiujldyc.jpg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Mustard Yellow",
+    "model": "Wearing Size XS",
+    "ratings": 4,
+    "description": "Bright like a summer morning, this mustard yellow one-piece features coconut shell buttons, a flared hem, and a relaxed fit. Hidden pockets add function to fun, making it perfect for everyday play.",
+    "GSM": "180",
+    "careInstructions": "i) Machine wash on gentle cycle.\n ii) Tumble dry low.\n iii) Do not wring.\n iv) Iron inside out.",
+    "styleTips": "Pair with tan sandals and a straw hat for a fun outdoor outfit.",
+    "returnPolicy": "Returns/exchanges accepted within 7 days. Items must be unused and in original packaging. Credit note issued upon return. COD cancellations allowed before dispatch only. For damage-related issues, contact support within 30 days."
+  },
+  {
+    "id": "18",
+    "name": "Mint Whirl Tutu Frock",
+    "slug": "mint-whirl-tutu-frock",
+    "category": "minime",
+    "price": "Rs.1650",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096202/products/oa6yajorhvqxuu7gxluc.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096202/products/oa6yajorhvqxuu7gxluc.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096197/products/trcle5pr5cg2oigvzcat.jpg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Mint Green",
+    "model": "Wearing Size XS",
+    "ratings": 4.5,
+    "description": "A whimsical mint frock featuring a cotton bodice and layered tulle skirt. Tied with a satin bow, it's made for twirls, giggles, and magical moments at every birthday bash.",
+    "GSM": "150",
+    "careInstructions": "i) Gentle hand wash only.\n ii) Do not iron on tulle.\n iii) Dry flat.\n iv) Avoid direct sunlight.",
+    "styleTips": "Match with glitter sandals and a tiara for fairy-tale vibes.",
+    "returnPolicy": "7-day return policy for unused, unwashed products with original tags. Return shipping borne by customer. Refund as credit note valid for 6 months. COD orders can be cancelled pre-dispatch. Quality complaints accepted within 30 days."
+  },
+  {
+    "id": "19",
+    "name": "Monochrome Chic Frock",
+    "slug": "monochrome-chic-frock",
+    "category": "minime",
+    "price": "Rs.1590",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096211/products/zrmmmkit2c7rfneykun8.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096211/products/zrmmmkit2c7rfneykun8.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096204/products/o1ne8vwju0nxp1x3oobp.jpg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Black and White",
+    "model": "Wearing Size XS",
+    "ratings": 3.2,
+    "description": "A timeless black and white one-piece frock with soft stripes, puff sleeves, and a bow belt at the waist. Monochrome never looked this adorable. Ideal for photo days, parties, or just dressing up for fun!",
+    "GSM": "170",
+    "careInstructions": "i) Machine wash in cold water.\n ii) Do not bleach.\n iii) Tumble dry low.\n iv) Iron inside out on low heat.",
+    "styleTips": "Pair with black ballerinas and a pearl headband for an elegant mini diva look.",
+    "returnPolicy": "Returns/exchanges within 7 days. Product must be unused, with original tags. Refunds via 6-month credit note. COD orders can be cancelled before dispatch only. For defects, contact support within 30 days."
+  },
+  {
+    "id": "20",
+    "name": "Ivory Flutter Short Frock",
+    "slug": "ivory-flutter-short-frock",
+    "category": "minime",
+    "price": "Rs.1450",
+    "image": "https://res.cloudinary.com/dimson50h/image/upload/v1749096192/products/qdga7ki3iq8onded5oiz.jpg",
+    "images": [
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096192/products/qdga7ki3iq8onded5oiz.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096190/products/whbdb09bkdzybaaosawg.jpg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "Ivory White",
+    "model": "Wearing Size XS",
+    "ratings": 5,
+    "description": "A breezy white short frock with flutter sleeves and delicate lace along the hem. Lightweight and breathable, this outfit is perfect for warm days, festive family outings, or simply twirling around.",
+    "GSM": "160",
+    "careInstructions": "i) Hand wash with mild detergent.\n ii) Do not soak.\n iii) Dry in shade.\n iv) Iron on reverse.",
+    "styleTips": "Style with gold flats and a floral hairclip for an angelic charm.",
+    "returnPolicy": "Items can be returned or exchanged within 7 days. Product must be unused and unwashed with original packaging. Refund via store credit only. COD cancellations allowed before dispatch. Quality issues accepted for review within 30 days."
+  },
+  {
+    "id": "21",
+    "name": "White Candytuft",
+    "slug": "white-candytuft",
+    "category": "teeva",
+    "price": "Rs.1050",
+    "image": "/images/products/white-floral-crop.jpg",
+    "images": [
+      "/images/products/white-floral-crop.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096495/products/ppt3zwz5hohjq3e6n10b.jpg"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "color": "White with Floral Print",
+    "model": "Wearing Size S",
+    "ratings": 4.8,
+    "description": "A flowy white crop top adorned with dainty floral prints. Lightweight rayon with puff sleeves makes it perfect for day outings.",
+    "GSM": "160",
+    "careInstructions": "i) Hand wash only.\nii) Do not soak.\niii) Steam iron preferred.",
+    "styleTips": "Wear with high-waist linen pants and floral earrings for a cohesive bloom look.",
+    "returnPolicy": "Returns in 7 days allowed. Unused only. Store credit policy applies."
+  },
+  {
+    "id": "22",
+    "name": "Butterfly Whisper",
+    "slug": "butterfly-whisper",
+    "category": "teeva",
+    "price": "Rs.985",
+    "image": "/images/products/white-butterfly-crop.jpg",
+    "images": [
+      "/images/products/white-butterfly-crop.jpg",
+      "https://res.cloudinary.com/dimson50h/image/upload/v1749096465/products/o4pycor9lg0szs6dgtz5.jpg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "color": "White with Butterfly Print",
+    "model": "Wearing Size M",
+    "ratings": 5,
+    "description": "Whimsical white crop tee featuring colorful butterfly prints. Made with soft cotton blend for everyday comfort.",
+    "GSM": "180",
+    "careInstructions": "i) Gentle wash.\nii) Iron on reverse.\niii) Avoid harsh scrubbing.",
+    "styleTips": "Match with ripped jeans and a cute hairband for a dreamy street look.",
+    "returnPolicy": "Eligible for return within 7 days. Store credit only. Tags must be intact."
+  }
+]

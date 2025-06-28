@@ -1,0 +1,133 @@
+.review-form {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 24px;
+}
+
+.rating-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.rating-container label {
+  cursor: pointer;
+  position: relative;
+}
+
+.rating-container input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.star {
+  transition: color 0.2s ease;
+}
+
+.review-comment {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.review-comment:focus {
+  outline: none;
+  border-color: #583d2e;
+}
+
+.image-upload-container {
+  margin-bottom: 20px;
+}
+
+.image-upload-label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.image-upload-label:hover {
+  background-color: #e9e9e9;
+}
+
+.image-upload-label input[type="file"] {
+  display: none;
+}
+
+.image-preview-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.image-preview {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.remove-image {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #ff4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+  transition: background-color 0.2s ease;
+}
+
+.remove-image:hover {
+  background: #cc0000;
+}
+
+.submit-review {
+  width: 100%;
+  padding: 12px;
+  background-color: #583d2e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-review:hover:not(:disabled) {
+  background-color: #442d20;
+}
+
+.submit-review:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+} 

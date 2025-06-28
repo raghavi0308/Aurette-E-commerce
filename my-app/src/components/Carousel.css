@@ -1,0 +1,267 @@
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  overflow: hidden;
+}
+
+/* Carousel Styling */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  overflow-y: hidden;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Slide Styling */
+.carousel-slide {
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Caption Styling */
+.carousel-caption {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white !important;
+  z-index: 2;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.carousel-slide.active .carousel-caption {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.carousel-slide:not(.active) .carousel-caption {
+  opacity: 0;
+  transform: translate(-50%, 20px);
+}
+
+/* First slide caption style */
+.carousel-slide:nth-child(2) .carousel-caption h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #313030 !important;
+  margin-top: -250px !important;
+  padding-left: 120px !important;
+}
+
+/* Second slide caption style */
+.carousel-slide:first-child .carousel-caption h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: #ffffff !important;
+  padding: 0px 20px;
+  border-radius: 5px;
+  /* margin-top: -250px !important; */
+  padding-left: 120px !important;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Navigation Buttons */
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem; /* Smaller size */
+  color: white;
+  background: none; /* No background */
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel:hover .carousel-prev,
+.carousel:hover .carousel-next {
+  opacity: 1;
+}
+
+.carousel-prev.hidden,
+.carousel-next.hidden {
+  display: none;
+}
+
+/* Navbar Styling */
+/* .main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4vw;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+} */
+
+/* Hover on whole navbar */
+/* .main-navbar:hover {
+  background-color: rgba(30, 30, 30, 0.1) !important;
+} */
+
+/* Logo */
+/* .main-navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  flex: 1;
+  text-align: center;
+  transform: translateX(-180px);
+} */
+
+/* Nav links (centered section) */
+/* .main-navbar .navbar-links {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.main-navbar .navbar-links ul {
+  display: flex;
+  gap: 2.2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 150px;
+}
+
+.main-navbar .navbar-links ul li {
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.main-navbar .navbar-links ul li:hover {
+  border-bottom: 2px solid white;
+} */
+
+/* Icons (right side) */
+/* .main-navbar .navbar-icons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  transform: translateX(-70px);
+  color: white;
+  font-size: 1.5rem;
+}
+
+.main-navbar .navbar-icons i {
+  position: relative;
+} */
+
+/* .main-navbar .navbar-icons .badge {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  background-color: #030303;
+  color: white;
+  border-radius: 50%;
+  padding: 1px 1px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  min-width: 19px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* 
+.main-navbar:hover .navbar-icons .badge {
+  background-color: white;
+  border-color: #030303;
+  color: black;
+} */
+
+.product-page {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Slide Buttons */
+.slide-button {
+  padding: 10px 11px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transform: translateY(45px);
+}
+
+.shop-button {
+  background-color: #482519;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.shop-button:hover {
+  background-color: #6d4c41;
+}
+
+.arrow-button {
+  background-color: transparent;
+  color: #000000;
+  font-size: 5rem;
+  padding: 10px 20px;
+  transform: translateY(260px);
+  margin-right: -1510px;
+}
+
+/* .arrow-button:hover {
+  transform: translateX(5px);
+} */
